@@ -1,0 +1,7 @@
+.intro__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 5px auto 0;
+}
