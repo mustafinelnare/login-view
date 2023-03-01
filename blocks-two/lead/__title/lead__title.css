@@ -3,3 +3,10 @@
   font-weight: 700;
   text-align: center;
 }
+
+@media screen and (max-wdith: 768px) {
+  .lead__title {
+    font-size: 40px;
+    max-width: 300px;
+  }
+}

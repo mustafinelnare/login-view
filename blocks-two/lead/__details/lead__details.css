@@ -2,3 +2,19 @@
   max-width: 600px;
   margin: auto;
 }
+
+.lead__details:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__details {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__details {
+    max-width: 300px;
+  }
+}
