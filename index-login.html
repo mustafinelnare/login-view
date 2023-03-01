@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login to your account</title>
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/index-login.css">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/icon">
+  <script src="./scripts/validation.js" defer></script>
 </head>
 
 <body>
@@ -17,22 +18,22 @@
       <div class="intro__login">
         <p class="intro__subtitle">Welcome back</p>
         <h1 class="intro__title">Login to your account</h1>
-        <form class="intro__form" name="form" action="#" novalidate>
+        <form class="intro__form" name="form" novalidate>
           <h2 class="intro__form-heading">Email</h2>
-          <input class="intro__input intro__input_type_error" type="email" id="email" placeholder="mustafinelnare@gmail.com" required>
-          <span class="input__error_type_email intro__error"></span>
-        </form>
-        <form class="intro__form" name="form" action="#" novalidate>
+          <input class="intro__input intro__input_type_email" type="email" id="email"
+            placeholder="mustafinelnare@gmail.com" required>
+          <span class="intro__error input__error_type_email"></span>
           <h2 class="intro__form-heading">Password</h2>
-          <input class="intro__input intro__input_type_error" type="password" id="password" placeholder="*********" required>
-          <span class="input__error_type_password intro__error intro__error_active"></span>
+          <input class="intro__input intro__input_type_password" type="password" id="password"
+            placeholder="*********" minlength="6" maxlength="20" required>
+          <span class="intro__error input__error_type_password"></span>
         </form>
         <div class="intro__buttons">
           <input class="intro__checkbox" type="checkbox">
           <label class="intro__label">Remember me</label>
           <a class="intro__forgot" href="#">Forgot password?</a>
         </div>
-        <button class="intro__submit" type="submit">Login now</button>
+        <button class="intro__submit" type="submit" onclick="window.location.href='http://127.0.0.1:5500/index-loged.html'">Login now</button>
         <button class="intro__button" type="button"><img class="intro__button-image" src="./images/google-icon.svg"
             alt="Button Image">Or sign-in with google</button>
         <p class="intro__footer">Don't have an account? <a class='intro__link' href="#">Join free today</a></p>

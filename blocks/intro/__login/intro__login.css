@@ -2,3 +2,9 @@
   max-width: 350px;
   margin: auto;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__login {
+    max-width: 270px;
+  }
+}

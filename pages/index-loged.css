@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(../blocks-two/page/page.css);
+@import url(../blocks-two/lead/lead.css);
+@import url(../blocks-two/lead/__title/lead__title.css);
+@import url(../blocks-two/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks-two/lead/__details/lead__details.css);
+@import url(../blocks-two/lead/__summary/lead__summary.css);
+@import url(../blocks-two/lead/__text/lead__text.css);

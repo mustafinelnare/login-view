@@ -17,6 +17,7 @@
 @import url(../blocks/intro/__checkbox/intro__checkbox.css);
 @import url(../blocks/intro/__forgot/intro__forgot.css);
 @import url(../blocks/intro/__submit/intro__submit.css);
+@import url(../blocks/intro/__submit/_disabled/intro__submit_disabled.css);
 @import url(../blocks/intro/__button-image/intro__button-image.css);
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__footer/intro__footer.css);

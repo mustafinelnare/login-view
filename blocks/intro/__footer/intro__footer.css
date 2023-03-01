@@ -5,3 +5,10 @@
   margin: 100px auto auto;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__footer {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+}

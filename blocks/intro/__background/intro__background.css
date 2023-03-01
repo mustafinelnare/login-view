@@ -2,3 +2,17 @@
   width: 50%;
   margin-left: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__background {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__background {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+  }
+}

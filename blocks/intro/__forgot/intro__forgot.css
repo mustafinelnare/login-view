@@ -4,3 +4,9 @@
   color: #2C5282;
   text-decoration: none;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__forgot {
+    font-size: 12px;
+  }
+}

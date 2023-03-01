@@ -16,3 +16,11 @@
   opacity: 0.8;
   transform: scale(1.01);
 }
+
+@media screen and (max-width: 425px) {
+  .intro__submit {
+    width: 270px;
+    height: 45px;
+    font-size: 14px;
+  }
+}

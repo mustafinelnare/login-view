@@ -4,3 +4,9 @@
   color: #2B6CB0;
   text-decoration: none;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__link {
+    font-size: 13px;
+  }
+}

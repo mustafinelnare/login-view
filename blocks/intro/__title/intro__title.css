@@ -4,3 +4,9 @@
   color: #1A202C;
   margin: 2px auto 24px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 26px;
+  }
+}
