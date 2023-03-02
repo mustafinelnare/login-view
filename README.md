@@ -18,4 +18,4 @@ Enter your email and password, which should contain 6 to 20 characters. It will 
 
 ```
 
-Link to [GitHub Pages:](https://mustafinelnare.github.io/login-view/index-login.html)
+Link to [GitHub Pages:](https://mustafinelnare.github.io/login-view/index-first.html)
